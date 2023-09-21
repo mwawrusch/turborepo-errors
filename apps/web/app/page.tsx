@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Card } from "ui";
+import type { ReactNode } from "react";
 import styles from "./page.module.css";
 
 function Gradient({
@@ -10,7 +11,7 @@ function Gradient({
   small?: boolean;
   conic?: boolean;
   className?: string;
-}): JSX.Element {
+}): ReactNode {
   return (
     <span
       className={[

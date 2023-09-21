@@ -8,6 +8,10 @@
     "lint": "eslint .",
     "generate:component": "turbo gen react-component"
   },
+  "dependencies": {
+    "tier": "^5.10.0",
+    "stripe": "^13.6.0"
+  },
   "devDependencies": {
     "@turbo/gen": "^1.10.12",
     "@types/node": "^20.5.2",
